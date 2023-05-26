@@ -276,6 +276,8 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
+    .from(".wish", 0.7, ideaTextTrans)
+    .to(".wish", 0.7, ideaTextTransLeave, "+=1.5")
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
