@@ -92,13 +92,19 @@ body {
   right: 0;
 }
 
+.lydia-dp {
+  width: 50%;
+  height: 50%;
+}
+
 .message p {
-  font-family: 'Signika', sans-serif;
-	font-size: 30px;
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;  
 	text-transform: uppercase;
 	color: #C4515C;
-	text-shadow: 2px 2px 2px #FFF;
-	display: none;
+	text-shadow: 2px 2px 2px #FFF;	
 	font-weight: bold;
 }
 
