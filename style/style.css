@@ -93,10 +93,13 @@ body {
 }
 
 .wish p {
-  font-size: 2rem;
-  position: absolute;
-  left: 0;
-  right: 0;
+  font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #C4515C;
+	text-shadow: 2px 2px 2px #FFF;
+	display: none;
+	font-weight: bold;
 }
 
 .idea-3 strong {
