@@ -1,8 +1,8 @@
 // bring values from DOM
-let getSecond = '00';
-let getMinute = '00';
-let getHour = '24';
-let getDays = 'May 30 2023';
+let getSecond = document.getElementById('seconds');
+let getMinute = document.getElementById('minutes');
+let getHour = document.getElementById('hours');
+let getDays = document.getElementById('days');
 let hideBtn = document.getElementById('btns');
 
 // define times with details
@@ -12,7 +12,7 @@ const hour = minute * 60;
 const day = hour * 24;
 
 // set the exactly date & times where to subtract current times.
-let getDate = prompt('Enter the Date ex: Aug 20 2020 23:30:20');
+let getDate = 'May 26 2023 23:02:00';
 let userDate = new Date(getDate).getTime();
 
 let calculateDate = setInterval(intervalImplementation, second);
