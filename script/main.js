@@ -242,17 +242,7 @@ const animationTimeline = () => {
       },
       0.1,
       "party"
-    )
-    .from(
-      ".wish h5",
-      0.5,
-      {
-        opacity: 0,
-        y: 10,
-        skewX: "-15deg"
-      },
-      "party"
-    )
+    )    
     .staggerTo(
       ".eight svg",
       1.5,
