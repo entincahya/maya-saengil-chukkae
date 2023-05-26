@@ -92,6 +92,13 @@ body {
   right: 0;
 }
 
+.wish p {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;

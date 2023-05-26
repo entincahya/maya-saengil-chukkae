@@ -284,6 +284,8 @@ const animationTimeline = () => {
     .to(".message3", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".message4", 0.7, ideaTextTrans)
     .to(".message4", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".message5", 0.7, ideaTextTrans)
+    .to(".message5", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".message6", 0.7, ideaTextTrans)
     .to(".message6", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".message7", 0.7, ideaTextTrans)
