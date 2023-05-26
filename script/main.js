@@ -302,5 +302,7 @@ const animationTimeline = () => {
   });
 };
 
+$('.message').fadeIn('slow');
+
 // Run fetch and animation in sequence
 fetchData();
