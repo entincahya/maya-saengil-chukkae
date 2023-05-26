@@ -12,6 +12,7 @@ const fetchData = () => {
               .setAttribute("src", data[customData]);
           } else {
             document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData];
+            $('.message').fadeIn('slow');
           }
         }
 
@@ -305,7 +306,3 @@ const animationTimeline = () => {
 
 // Run fetch and animation in sequence
 fetchData();
-
-$('document').ready(function(){
-  $('.message').fadeIn('slow');
-});
