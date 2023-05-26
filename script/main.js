@@ -33,7 +33,7 @@ const animationTimeline = () => {
     .join("</span><span>")}</span`;
     
   const wishes = document.getElementsByClassName("message");
-  wishes.fadeIn(slow);
+  wishes.fadeIn('slow');
 
   const ideaTextTrans = {
     opacity: 0,
