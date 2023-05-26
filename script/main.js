@@ -31,9 +31,6 @@ const animationTimeline = () => {
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
     .join("</span><span>")}</span`;
-    
-  const wishes = document.getElementsByClassName("message");
-  wishes.fadeIn('slow');
 
   const ideaTextTrans = {
     opacity: 0,
