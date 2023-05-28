@@ -312,4 +312,12 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+
+  .container div.seven,
+  .container div.eight {
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top: 0;
+  }
 }
