@@ -23,7 +23,7 @@ html {
 
 body {
   height: 100%;
-  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background: linear-gradient(to top, #c4e6fa 0%, #e5d1ff 100%);
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
