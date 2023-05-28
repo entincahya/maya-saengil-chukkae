@@ -261,9 +261,9 @@ const animationTimeline = () => {
       zIndex: "-1"
     })
     .from(".message1", 0.7, ideaTextTrans)
-    .to(".message1", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".six", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".message2", 0.7, ideaTextTrans)
-    .to(".message2", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".six", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".message3", 0.7, ideaTextTrans)
     .to(".message3", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".message4", 0.7, ideaTextTrans)
